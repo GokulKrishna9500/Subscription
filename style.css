@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.Subscription__title{
+    background-color: palevioletred;
+    text-align: center;
+    padding: 10px;
+}
+
+.Subscription__container{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.plans{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 250px;
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+}
+
+.plan__two{
+    padding: 10px;
+    border: solid white 1px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.plan__two p{
+    padding : 2px;
+}
